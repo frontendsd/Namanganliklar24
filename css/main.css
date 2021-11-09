@@ -1,26 +1,26 @@
 *{
     box-sizing: border-box;
 }
-/* *:focus{
-    outline: invert;
-    outline-offset: initial;
-} */
 
-
+html{
+    width: 100%;
+}
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    font-size: 16px;
     font-weight: 400;
+    color: #4a4b4c;
     line-height: 22px;
-    color: #4A4B4C;
+    font-family: 'Rubik', sans-serif;
 }
 .container{
-    max-width: 100px;
+    max-width: 1300px;
     width: 100%;
-    font-family: 'Rubik', sans-serif;
     margin-right: auto;
     margin-left: auto;
     padding-right: 50px;
     padding-left: 50px;
 }
+
