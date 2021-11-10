@@ -8,6 +8,8 @@ html{
 }
 body{
     display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -68,6 +70,18 @@ body{
 }
 .currency-item-value {
 }
+
+/* GLOBAL SEARCH */
+.global-search{
+    width: 275px;
+    outline: none;
+}
+.global-search-input{
+    background: #fff;
+    border-radius: 60px;
+    padding: 15px;    
+}
+
 .language-toggle {
     display: flex;
     border-radius: 39px;
@@ -106,14 +120,27 @@ body{
     background: #7296EC;
     padding: 13px 20px;
 }
+/* SITENAV */
+
 .sitenav {
-}
-.sitenav-header {
+    margin-top: 30px;
 }
 .sitenav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid ;
+    width: 1200px;
+    height: 40px;
+    color: #D1D1D1;
 }
-.sitenav-item {
+.sitenav-item:not(:last-child){
+    margin-right: auto;
 }
 .sitenav-link {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-weight: 500;
 }
 
