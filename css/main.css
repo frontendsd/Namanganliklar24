@@ -50,6 +50,12 @@ body{
     padding: 6px 8px;
     margin-right: 35px;
 }
+.site-logo:hover{
+    opacity: 0.8;
+}
+.site-logo:active{
+    opacity: 0.6;
+}
 
 /* CURRENCY */
 .currency {
@@ -79,7 +85,8 @@ body{
 .global-search-input{
     background: #fff;
     border-radius: 60px;
-    padding: 15px;    
+    padding: 15px;
+    border: none;
 }
 
 .language-toggle {
@@ -120,19 +127,25 @@ body{
     background: #7296EC;
     padding: 13px 20px;
 }
+.button-primary:hover{
+    opacity: 0.8;
+}
+.button-primary:active{
+    opacity: 0.6;
+}
 /* SITENAV */
 
 .sitenav {
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
 }
 .sitenav-list {
     display: flex;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
     list-style: none;
-    border-bottom: 1px solid ;
-    width: 1200px;
-    height: 40px;
     color: #D1D1D1;
 }
 .sitenav-item:not(:last-child){
@@ -142,5 +155,8 @@ body{
     text-decoration: none;
     color: #7F7F7F;
     font-weight: 500;
+}
+.aside{
+    margin-top: 20px;
 }
 
